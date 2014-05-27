@@ -1,10 +1,13 @@
 {
-  "name": "Native Sources",
+  "name": "UrlStub",
   "version": "1.0",
-  "description": "Loads dev versions of libraries",
+  "description": "Let you replace a URL call with another URL",
   "manifest_version": 2,
+  "options_page: "html/options.html",
   "background" :{
-	"scripts": ["js/background.js"]
+	"scripts": [
+		"js/background.js"
+	]
   },
   "permissions": [
     "<all_urls>",
