@@ -1,0 +1,14 @@
+{
+  "name": "Native Sources",
+  "version": "1.0",
+  "description": "Loads dev versions of libraries",
+  "manifest_version": 2,
+  "background" :{
+	"scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "<all_urls>",
+	"webRequest",
+	"webRequestBlocking"
+  ]
+}
